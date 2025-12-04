@@ -57,26 +57,27 @@ Exemple:
 # Write abstract class Animal here
 
 # Corret and overwrite class Dog(Animal) here 
-class Dog():
+class Dog(animal):
     def __init__(self, name):
         self.name = name
 
     def talk(self):
-        pass
+        return "¡Guau!"
+
 
 # Corret and overwrite class Cat(Animal) here 
-class Cat():
+class Cat(animal):
     def __init__(self, name):
         self.name = name
     def talk(self):
-        pass
+        return "¡Meow!"
 
 # Corret and overwrite class Parrot(Animal) here 
-class Parrot():
+class Parrot(animal):
     def __init__(self, name):
         self.name = name
     def talk(self):
-        pass
+        return "¡Whistle!"
 
 
 
