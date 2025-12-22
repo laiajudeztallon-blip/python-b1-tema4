@@ -45,7 +45,10 @@ Exemple:
 
 def count_fruits(fruits_list):
     # Write here your code
-    pass
+    set1 = set(list_1)
+    set2 = set(list_2)
+    intersection = set1 & set2
+    return intersection
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
