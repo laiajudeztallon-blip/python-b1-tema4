@@ -62,21 +62,21 @@ class Dog():
         self.name = name
 
     def talk(self):
-        pass
+        return "¡Guau!"
 
 # Corret and overwrite class Cat(Animal) here 
 class Cat():
     def __init__(self, name):
         self.name = name
     def talk(self):
-        pass
+        return "¡Meow!"
 
 # Corret and overwrite class Parrot(Animal) here 
 class Parrot():
     def __init__(self, name):
         self.name = name
     def talk(self):
-        pass
+        return "¡Whistle!"
 
 
 
